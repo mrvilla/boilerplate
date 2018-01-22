@@ -1,0 +1,25 @@
+{
+  "name": "start_project",
+  "version": "0.0.1",
+  "description": "Starting a New Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "open http://localhost:3000 & node app & grunt"
+  },
+  "author": "Enrique Villa",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^7.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
