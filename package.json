@@ -2,9 +2,8 @@
   "name": "start_project",
   "version": "0.0.1",
   "description": "Starting a New Project",
-  "main": "app.js",
   "scripts": {
-    "start": "node app & grunt"
+    "start": "grunt"
   },
   "author": "Enrique Villa",
   "license": "MIT",
@@ -19,7 +18,5 @@
     "grunt-sass": "^2.0.0",
     "load-grunt-tasks": "^3.5.2"
   },
-  "dependencies": {
-    "express": "^4.16.2"
-  }
+  "dependencies": {}
 }

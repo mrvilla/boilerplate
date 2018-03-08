@@ -68,5 +68,5 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt);
 
     // custom tasks
-    grunt.registerTask('default', ['browserSync', 'watch', 'sass', 'babel']);
+    grunt.registerTask('default', ['browserSync', 'sass', 'babel', 'watch']);
 };
